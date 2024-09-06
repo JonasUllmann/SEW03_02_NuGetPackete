@@ -7,6 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <TextBox Name="tbxnum1" HorizontalAlignment="Left" Margin="205,201,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="tbxnum2" HorizontalAlignment="Left" Margin="523,201,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+
+        <TextBlock Name="tbkerg" Width="120" Margin="328,266,352,131" Text="" TextAlignment="Center"/>
+
+        <Button Name="btnadd" Margin="376,109,304,251" Content="Add" Click="btnadd_Click"/>
 
     </Grid>
 </Window>
