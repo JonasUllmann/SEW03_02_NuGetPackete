@@ -63,6 +63,8 @@ namespace SEW03_02_01_Rechnen_NuGet_Log
 
             tbkerg.Text = erg.ToString();
 
+            logger.Info("Erfolgreich addiert!");
+
 
 
         }
