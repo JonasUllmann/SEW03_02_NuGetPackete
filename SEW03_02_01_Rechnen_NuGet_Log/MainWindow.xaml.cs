@@ -53,7 +53,7 @@ namespace SEW03_02_01_Rechnen_NuGet_Log
 
             try
             {
-                logger.Info("add");
+                logger.Info("addiert");
                 erg = num1 + num2;
             }
             catch(Exception ex) 
