@@ -25,12 +25,44 @@ namespace SEW03_02_02_Zeichnen
         public static void TurtleMain()
         {
 
-            var seymour = Turtle.Seymour();
+            var will = Turtle.Seymour();
 
-            seymour.Left(45);
-            seymour.Forward(100);
-            seymour.Right(45);
-            seymour.Forward(50);
+            will.Speed = 5;
+
+            will.PenUp();
+            will.GoTo((-225, 150));
+
+            j();
+
+            will.PenUp();
+            will.GoTo((-125, 50));
+
+
+
+            void j()
+            {
+                will.PenDown();
+                will.SetHeading(270);
+
+                will.Forward(200);
+                
+                will.Right(45);
+                will.Forward(50);
+                
+                will.Right(45);
+                will.Forward(50);
+
+                will.Right(45);
+                will.Forward(50);
+
+            }
+
+            void o()
+            {
+
+
+
+            }
         }
     }
 }
