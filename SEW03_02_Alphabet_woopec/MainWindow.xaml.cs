@@ -130,26 +130,18 @@ namespace SEW03_02_Alphabet_woopec
 
                 will.Forward(50);
 
-                will.Right(45);
-                will.Forward(50);
+                for (int i = 0; i < 7; i++)
+                {
+                    will.Right(45);
+                    will.Forward(50);
+                }
 
-                will.Right(45);
-                will.Forward(50);
 
-                will.Right(45);
-                will.Forward(50);
+            }
 
-                will.Right(45);
-                will.Forward(50);
-
-                will.Right(45);
-                will.Forward(50);
-
-                will.Right(45);
-                will.Forward(50);
-
-                will.Right(45);
-                will.Forward(50);
+            void B()
+            {
+                
             }
 
         }

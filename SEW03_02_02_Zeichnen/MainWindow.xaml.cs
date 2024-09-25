@@ -66,14 +66,13 @@ namespace SEW03_02_02_Zeichnen
 
                 will.Forward(200);
                 
-                will.Right(45);
-                will.Forward(50);
                 
-                will.Right(45);
-                will.Forward(50);
 
-                will.Right(45);
-                will.Forward(50);
+                for (int i = 0; i < 3; i++)
+                {
+                    will.Right(45);
+                    will.Forward(50);
+                }
 
             }
 
@@ -85,27 +84,15 @@ namespace SEW03_02_02_Zeichnen
 
                 will.Forward(50);
 
-                will.Right(45);
-                will.Forward(50);
+                for (int i = 0; i < 7; i++)
+                {
+                    will.Right(45);
+                    will.Forward(50);
+                }
 
-                will.Right(45);
-                will.Forward(50);
 
-                will.Right(45);
-                will.Forward(50);
-
-                will.Right(45);
-                will.Forward(50);
-
-                will.Right(45);
-                will.Forward(50);
-
-                will.Right(45);
-                will.Forward(50);
-
-                will.Right(45);
-                will.Forward(50);
             }
+        
 
             void n()
             {
@@ -156,29 +143,25 @@ namespace SEW03_02_02_Zeichnen
 
                 will.Forward(22);
 
-                will.Left(45);
-                will.Forward(50);
 
-                will.Left(45);
-                will.Forward(22);
-
-                will.Left(45);
-                will.Forward(22);
-
-                will.Left(45);
-                will.Forward(22);
 
                 will.Left(45);
                 will.Forward(50);
 
-                will.Right(45);
-                will.Forward(22);
+                for (int i = 0; i < 3; i++)
+                {
+                    will.Left(45);
+                    will.Forward(22);
+                }
 
-                will.Right(45);
-                will.Forward(22);
+                will.Left(45);
+                will.Forward(50);                
 
-                will.Right(45);
-                will.Forward(22);
+                for (int i = 0; i < 3; i++)
+                {
+                    will.Right(45);
+                    will.Forward(22);
+                }
 
                 will.Right(45);
                 will.Forward(50);
