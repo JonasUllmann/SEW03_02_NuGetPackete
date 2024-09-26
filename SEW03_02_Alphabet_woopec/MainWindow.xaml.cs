@@ -30,6 +30,7 @@ namespace SEW03_02_Alphabet_woopec
 
             will.Speed = 25;
 
+            /*
             will.PenUp();
             will.GoTo((-700, 250));
 
@@ -49,6 +50,24 @@ namespace SEW03_02_Alphabet_woopec
             will.GoTo((-300, 250));
 
             d();
+            */
+
+            will.PenUp();
+            will.GoTo((-700, 340));
+
+            L();
+
+            will.PenUp();
+            will.GoTo((-555, 250));
+
+            u();
+
+            will.PenUp();
+            will.GoTo((-400, 340));
+
+            k();
+
+
 
             void a()
             {
@@ -63,6 +82,11 @@ namespace SEW03_02_Alphabet_woopec
                 will.Right(90);
                 will.Forward(125);
 
+
+            }
+
+            void B()
+            {
 
             }
 
@@ -139,9 +163,66 @@ namespace SEW03_02_Alphabet_woopec
 
             }
 
-            void B()
+            void L()
             {
-                
+                will.PenDown();
+
+                will.SetHeading(270);
+                will.Forward(210);
+
+                will.SetHeading(0);
+                will.Forward(120);
+
+
+            }
+
+            void u()
+            {
+                will.PenDown();
+                will.SetHeading(270);
+                will.Forward(85);
+
+                for (int i = 0;i < 3; i++)
+                {
+                    will.Left(45);
+                    will.Forward(50);
+                }
+
+                will.SetHeading(90);
+                will.Forward(85);
+
+
+
+
+
+            }
+
+            void k()
+            {
+                will.PenDown();
+
+                will.SetHeading(270);
+                will.Forward(210);
+
+                will.PenUp();
+                will.SetHeading(90);
+                will.Forward(50);
+
+                will.SetHeading(45);
+                will.PenDown();
+                will.Forward(85);
+
+                will.PenUp();
+                will.SetHeading(225);
+                will.Forward(42.5);
+                will.SetHeading(290);
+                will.PenDown();
+                will.Forward(85);
+
+
+
+
+
             }
 
         }
